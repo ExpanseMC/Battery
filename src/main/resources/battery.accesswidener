@@ -1,0 +1,25 @@
+accessWidener v1 named
+
+accessible class net/minecraft/server/level/ChunkMap$DistanceManager
+accessible class net/minecraft/server/level/ChunkMap$TrackedEntity
+accessible class net/minecraft/server/level/DistanceManager$ChunkTicketTracker
+accessible class net/minecraft/server/level/ServerChunkCache$MainThreadExecutor
+accessible class net/minecraft/world/level/chunk/PaletteResize
+accessible class net/minecraft/world/phys/shapes/IndexMerger
+
+accessible field net/minecraft/server/level/ChunkMap$TrackedEntity entity Lnet/minecraft/world/entity/Entity;
+accessible field net/minecraft/util/Mth SIN [F
+accessible field net/minecraft/world/level/levelgen/synth/SimplexNoise GRADIENT [[I
+accessible field net/minecraft/world/level/newbiome/area/LazyArea transformer Lnet/minecraft/world/level/newbiome/layer/traits/PixelTransformer;
+accessible field net/minecraft/world/phys/shapes/VoxelShape shape Lnet/minecraft/world/phys/shapes/DiscreteVoxelShape;
+
+accessible method net/minecraft/server/level/ChunkHolder updateChunkToSave (Ljava/util/concurrent/CompletableFuture;)V
+accessible method net/minecraft/server/level/Ticket timedOut (J)Z
+accessible method net/minecraft/world/entity/ai/behavior/Behavior canStillUse (Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)Z
+accessible method net/minecraft/world/level/material/Fluid isEmpty ()Z
+accessible method net/minecraft/world/phys/shapes/CubePointRange <init> (I)V
+accessible method net/minecraft/world/phys/shapes/Shapes findBits (DD)I
+accessible method net/minecraft/world/phys/shapes/VoxelShape <init> (Lnet/minecraft/world/phys/shapes/DiscreteVoxelShape;)V
+accessible method net/minecraft/world/phys/shapes/VoxelShape getCoords (Lnet/minecraft/core/Direction$Axis;)Lit/unimi/dsi/fastutil/doubles/DoubleList;
+
+extendable class net/minecraft/world/level/newbiome/area/LazyArea

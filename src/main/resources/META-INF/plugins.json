@@ -1,0 +1,28 @@
+{
+    "plugins": [
+        {
+            "loader": "java_plain",
+            "id": "battery",
+            "name": "Battery",
+            "version": "0.2.0",
+            "main-class": "com.expansemc.battery.Battery",
+            "description": "Lithium ported to Sponge.",
+            "links": {
+                "source": "https://github.com/ExpanseMC/Battery",
+                "issues": "https://github.com/ExpanseMC/Battery/issues"
+            },
+            "contributors": [
+                {
+                    "name": "doot",
+                    "description": "Lead Developer"
+                }
+            ],
+            "dependencies": [
+                {
+                    "id": "spongeapi",
+                    "version": "8.0.0"
+                }
+            ]
+        }
+    ]
+}
